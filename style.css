@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(101, 35, 134);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: greenyellow ;
+    text-align: center;
+}
+
+section{
+    background: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+}
+
+footer{
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+    color:rgb(3, 3, 3);
+    margin-top: 5px;
+}
+
+footer > a{
+    text-decoration: none;
+    color: rgb(101, 35, 134);
+
+}
+footer > a:hover{
+    color: darkred;
+
+}
